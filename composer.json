@@ -1,0 +1,22 @@
+{
+    "name": "lefuturiste/crypt",
+    "description": "A simple crypt lib",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthieu Bessat",
+            "email": "spamfree@matthieubessat.fr"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lefuturiste\\Crypt\\": "src",
+            "Lefuturiste\\Crypt\\Tests\\": "Tests"
+        }
+    }
+}
