@@ -13,10 +13,13 @@
     "require-dev": {
         "phpunit/phpunit": "^6.5"
     },
+    "scripts": {
+        "test": "vendor/bin/phpunit test",
+        "tests": "vendor/bin/phpunit test"
+    },
     "autoload": {
         "psr-4": {
-            "Lefuturiste\\Crypt\\": "src",
-            "Lefuturiste\\Crypt\\Tests\\": "Tests"
+            "Lefuturiste\\Crypt\\": "src"
         }
     }
 }

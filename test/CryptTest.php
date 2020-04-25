@@ -1,7 +1,5 @@
 <?php
 
-namespace Tests;
-
 use Lefuturiste\Crypt\Crypt;
 use PHPUnit\Framework\TestCase;
 
